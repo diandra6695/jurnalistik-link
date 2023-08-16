@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>✨ Link redirect ✨</title>
+    <link rel="stylesheet" href="./src/style/global.css" />
+  </head>
+  <body class="bg-amber-100">
+    <div class="container m-auto h-screen w-full">
+      <div class="wrap h-full flex justify-center items-center flex-col">
+        <div class="isi bg-white rounded-br-3xl rounded-tl-3xl  p-8 flex items-center flex-col w-96 lg:w-96 md:w-96 sm:w-96 shadow">
+          <div class="logo absolute h-24 w-24 -translate-y-16">
+            <img class="rounded-full" src="https://pps.whatsapp.net/v/t61.24694-24/293125722_6111551482204789_4963416897759053677_n.jpg?ccb=11-4&oh=01_AdS2OpyL2ISgS-sxBhPpeFR6KvvUX6p8MIZRwIoFWoFChg&oe=64E98E19" alt="logo">
+          </div>
+          <div class="judul text-2xl mt-8 font-bold">
+            <h3>Journalistic Storage</h3>
+          </div>
+          <div class="deskripsi text-xs text-center mt-2 text-slate-500 mb-5">
+            <p>Halaman ini akan mengarahkan anda pada penyimpanan kami</p>
+          </div>
+          <div class="information mb-5 border border-amber-700 bg-amber-50 rounded-lg text-xs p-3 text-amber-700 w-full">
+            <div class="nih flex items-center gap-1">
+              <i data-feather="info"></i>
+              <p>informasi</p>
+            </div>
+            <div class="bungkus flex items-center ">
+              <div class="nih">
+                <div class="judul-title font-bold text-base">
+                  <p>Judul-Title</p>
+                </div>
+                <div class="keterangan">
+                  <p id="deskripsi" class="">Kamu akan diarahkkan ke penyimpanan kami dalam</p>
+                </div>
+              </div>
+              <span id="countdown" class="timer font-bold text-xl m-2">10</span>
+            </div>
+            <div id="btn" class="btn hidden mt-2 bg-amber-500 text-white hover:bg-amber-600 active:bg-amber-700 flex justify-center items-center text-sm rounded-lg h-8">
+              <a href="">Lanjut ke halaman selanjutnya</a>
+            </div>
+          </div>
+          <div class="sosmed flex justify-between w-full mb-5">
+            <div class="instagram h-10 w-36 bg-amber-500 text-white hover:bg-amber-600 active:bg-amber-700 flex justify-center items-center rounded-lg">
+              <a href=""><i data-feather="instagram"></i></a>
+            </div>
+            <div class="youtube h-10 w-36 bg-amber-500 text-white hover:bg-amber-600 active:bg-amber-700 flex justify-center items-center rounded-lg">
+              <a href=""><i data-feather="youtube"></i></a>
+            </div>
+          </div>
+          <a href="#" class="complain flex gap-4 text-xs rounded-lg p-3 mb-5 items-center bg-gradient-to-r from-green-400 to-green-600 text-white">
+            <div class="logo">
+              <i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i>
+            </div>
+            <div class="text">
+              <p>Jika ada file yang tidak berkenan bisa lapor untuk penghapusan. dengan klik tombol ini.</p>
+            </div>
+          </a>
+          <div class="copyright text-xs text-slate-500 underline">
+            <a href="https://bogeng.skom.id/">&copy; 2023 Bogeng Team</a>
+          </div>
+        </div>
+        <div class="join bg-white w-80 h-10 mt-5 text-center flex items-center justify-center rounded-lg">
+          <p>Mau join jurnalistik?? klik disini</p>
+        </div>
+      </div>
+    </div>
+    <script src="./src/js/index.js"></script>
+    <script>
+      feather.replace()
+    </script>
+  </body>
+</html>
