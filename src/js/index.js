@@ -1,6 +1,7 @@
 const btn = document.querySelector('#btn');
 const timer = document.querySelector('#countdown');
 const deskripsi = document.querySelector('#deskripsi');
+const join = document.querySelector('#join');
 
 let remainingSeconds = 10;
 
@@ -14,5 +15,9 @@ const countdownInterval = setInterval(function() {
     btn.classList.remove('hidden');
   } else {
     document.getElementById("countdown").innerHTML = remainingSeconds;
+  }
+
+  if(remainingSeconds < 8){
+    join.classList.remove('hidden');
   }
 }, 1000);
